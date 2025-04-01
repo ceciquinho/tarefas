@@ -27,7 +27,7 @@ if ($method == 'POST') {
         "nome" => $data['nome'] ?? '',
         "perfil" => $data['perfil'] ?? ''
     ];
-   
+    
     $usuarios[] = $novoUsuario;
     echo json_encode($novoUsuario);
     http_response_code(201);
