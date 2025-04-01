@@ -1,0 +1,16 @@
+{
+    "name": "lucas.cunha4/tarefas",
+    "autoload": {
+        "psr-4": {
+            "LucasCunha4\\Tarefas\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucas"
+        }
+    ],
+    "require": {
+        "slim/psr7": "^1.7"
+    }
+}
